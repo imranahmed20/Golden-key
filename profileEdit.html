@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Key</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <style>
+        /* Add custom styles to fix the navbar */
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+
+        @media (max-width: 768px) {
+            #carouselExampleIndicators {
+                margin-top: 40px;
+                /* Adjust the margin for mobile devices */
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            /* Adjust the breakpoint as needed */
+            .menu {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-profile">
+
+    <nav class="navbar navbar-expand-lg bg-success px-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/IMAGES/logo.png" alt="" height="60px" width="100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link ms-4 ms-lg-0 fw-bold dropdown-toggle" href="./our-service.html"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                            Our Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Contracting </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#" class="dropdown-item">A</a> </li>
+                                    <li> <a href="#" class="dropdown-item">B</a> </li>
+                                    <li> <a href="#" class="dropdown-item">C</a> </li>
+                                    <li> <a href="#" class="dropdown-item">D</a> </li>
+                                    <li> <a href="#" class="dropdown-item">E</a> </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Cleaning </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#" class="dropdown-item">A</a> </li>
+                                    <li> <a href="#" class="dropdown-item">B</a> </li>
+                                    <li> <a href="#" class="dropdown-item">C</a> </li>
+                                    <li> <a href="#" class="dropdown-item">D</a> </li>
+                                    <li> <a href="#" class="dropdown-item">E</a> </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hospitality</a></li>
+                            <li><a class="dropdown-item" href="#">Trading</a></li>
+                            <li><a class="dropdown-item" href="#">Service</a></li>
+                            <li><a class="dropdown-item" href="#">Travel Agency</a></li>
+                            <li><a class="dropdown-item" href="#">Training</a></li>
+                            <li><a class="dropdown-item" href="#">Library Faculty</a></li>
+                            <li><a class="dropdown-item" href="#">Real Estate</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./our-project.html">Our Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./BOD.html">Board of Directors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./inqueary.html">Inquiry </a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./jobApply.html">Job Apply </a>
+                    </li>
+                    <a class="nav-link px-4 fw-bold" href="./Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="#">Lang</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Info -->
+    <main class="container py-5">
+        <section class="">
+            <div class="text-center mb-3">
+                <img src="./assets/IMAGES/person.jpg" alt="" class="rounded-circle" height="150px" width="150px">
+            </div>
+            <h4 class="fw-bolder text-center">
+                <span class="bg-primary py-1 px-2 d-inline-block rounded-2">YEASIN ARAFAT </span>
+            </h4>
+            <h4 class="fw-bolder text-center">
+                <span class="bg-primary py-1 px-2 d-inline-block rounded-2">29205011275</span>
+            </h4>
+
+        </section>
+
+        <!-- Registartion -->
+
+        <section class="pt-4 col-lg-10 mx-auto">
+            <div class="d-flex justify-content-between  mb-3">
+                <h4>Registration: </h4>
+                <div>
+                    <button class="btn btn-success fw-bolder">
+                        <i class="fa-solid fa-hard-drive me-2"></i>
+                        SAVE
+                    </button>
+                    <a class="btn btn-success fw-bolder" href="./profile.html">
+                        <i class="fa-solid fa-user me-2"></i>
+                        Profile
+                    </a>
+                </div>
+            </div>
+            <ol class="profile__info">
+                <li>Employee No: <span class="fw-bolder">1</span></li>
+                <li>Qatar ID/ VISA No: <span class="fw-bolder">676789787</span></li>
+                <li>Qatar ID/ VISA EXPIRATION DATE: <span class="fw-bolder">12/12/2024</span></li>
+                <!-- Start Edit -->
+                <li>
+                    <div class="input-group mt-2 mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">NATIONALITY : </label>
+
+                        <input list="brow" class="form-control">
+                        <datalist id="brow">
+                            <option disabled>Select your country</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="American Samoa">American Samoa</option>
+                            <option value="Andorra">Andorra</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Anguilla">Anguilla</option>
+                            <option value="Antigua Barbuda">Antigua Barbuda</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Aruba">Aruba</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Azerbaijan">Azerbaijan</option>
+                            <option value="Bahamas">Bahamas</option>
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Barbados">Barbados</option>
+                            <option value="Belarus">Belarus</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Belize">Belize</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Bermuda">Bermuda</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Bonaire">Bonaire</option>
+                            <option value="Bosnia Herzegovina">Bosnia Herzegovina</option>
+                            <option value="Botswana">Botswana</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                            <option value="Burundi">Burundi</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="Cameroon">Cameroon</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Central African">Central African</option>
+                            <option value="Chad">Chad</option>
+                            <option value="Chile">Chile</option>
+                            <option value="China">China</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Comoros">Comoros</option>
+                            <option value="Congo">Congo</option>
+                            <option value="Croatia">Croatia</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="Curacao">Curacao</option>
+                            <option value="Cyprus">Cyprus</option>
+                            <option value="Czech">Czech</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Djibouti">Djibouti</option>
+                            <option value="Dominica">Dominica</option>
+                            <option value="East Timor">East Timor</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="Eritrea">Eritrea</option>
+                            <option value="Estonia">Estonia</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Finland">Finland</option>
+                            <option value="France">France</option>
+                            <option value="Gabon">Gabon</option>
+                            <option value="Gambia">Gambia</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Gibraltar">Gibraltar</option>
+                            <option value="Greece">Greece</option>
+                            <option value="Greenland">Greenland</option>
+                            <option value="Grenada">Grenada</option>
+                            <option value="Guadeloupe">Guadeloupe</option>
+                            <option value="Guam">Guam</option>
+                            <option value="Guatemala">Guatemala</option>
+                            <option value="Guinea">Guinea</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Haiti">Haiti</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Honduras">Honduras</option>
+                            <option value="Hongkong">Hongkong</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Iceland">Iceland</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="India">India</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Iraq">Iraq</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="Israel">Israel</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Jamaica">Jamaica</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Kiribati">Kiribati</option>
+                            <option value="Korea North">Korea North</option>
+                            <option value="Korea South">Korea South</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Laos">Laos</option>
+                            <option value="Latvia">Latvia</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Lesotho">Lesotho</option>
+                            <option value="Liberia">Liberia</option>
+                            <option value="Libya">Libya</option>
+                            <option value="Liechtenstein">Liechtenstein</option>
+                            <option value="Lithuania">Lithuania</option>
+                            <option value="Luxembourg">Luxembourg</option>
+                            <option value="Macau">Macau</option>
+                            <option value="Macedonia">Macedonia</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="Malawi">Malawi</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Malta">Malta</option>
+                            <option value="Martinique">Martinique</option>
+                            <option value="Mauritania">Mauritania</option>
+                            <option value="Mauritius">Mauritius</option>
+                            <option value="Mayotte">Mayotte</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Moldova">Moldova</option>
+                            <option value="Monaco">Monaco</option>
+                            <option value="Mongolia">Mongolia</option>
+                            <option value="Montserrat">Montserrat</option>
+                            <option value="Morocco">Morocco</option>
+                            <option value="Mozambique">Mozambique</option>
+                            <option value="Myanmar">Myanmar</option>
+                            <option value="Namibia">Namibia</option>
+                            <option value="Nauru">Nauru</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Netherlands">Netherlands</option>
+                            <option value="Nevis">Nevis</option>
+                            <option value="New Caledonia">New Caledonia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Nicaragua">Nicaragua</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Palestine">Palestine</option>
+                            <option value="Panama">Panama</option>
+                            <option value="Papua New Guinea">Papua New Guinea</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Puerto Rico">Puerto Rico</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Montenegro">Montenegro</option>
+                            <option value="Serbia">Serbia</option>
+                            <option value="Reunion">Reunion</option>
+                            <option value="Romania">Romania</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="Saipan">Saipan</option>
+                            <option value="Samoa">Samoa</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Seychelles">Seychelles</option>
+                            <option value="Sierra Leone">Sierra Leone</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Slovakia">Slovakia</option>
+                            <option value="Slovenia">Slovenia</option>
+                            <option value="Solomon">Solomon</option>
+                            <option value="Somalia">Somalia</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Sudan">Sudan</option>
+                            <option value="Suriname">Suriname</option>
+                            <option value="Swaziland">Swaziland</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Switzerland">Switzerland</option>
+                            <option value="Syria">Syria</option>
+                            <option value="Tahiti">Tahiti</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Tajikistan">Tajikistan</option>
+                            <option value="Tanzania">Tanzania</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Tonga">Tonga</option>
+                            <option value="Tunisia">Tunisia</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Turkmenistan">Turkmenistan</option>
+                            <option value="Tuvalu">Tuvalu</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="United Arab Emirates">United Arab Emirates</option>
+                            <option value="United States America">United States America</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Vanuatu">Vanuatu</option>
+                            <option value="Vatican">Vatican</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="Zaire">Zaire</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                        </datalist>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"> Passport No :</span>
+                        <input type="text" class="form-control" placeholder="EX : 767887">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control text-white" placeholder="Expire of Id Date"
+                            id="expireOdDate__Input">
+                        <label>Passport EXPIRATION DATE : </label>
+                        <span class=" position-absolute pe-3" id="expireOdDate__Span">DD-MM-YYY</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control text-white" placeholder="Expire of Id Date"
+                            id="joinedDate__Input">
+                        <label>Joined Date : </label>
+                        <span class=" position-absolute pe-3" id="joinedDate__Span">DD-MM-YYY</span>
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Joined Date : </span>
+                        <input type="date" class="form-control" placeholder="">
+                    </div>
+                </li> -->
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Occupation / Profession : </span>
+                        <input type="text" class="form-control" placeholder="EX : Student">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="input-group mb-3 d-flex align-items-center">
+                        <span class="input-group-text">Gender : </span>
+                        <div class="form-check ms-2">
+                            <input class="form-check-input" type="radio" name="gender" id="Male">
+                            <label class="form-check-label" for="Male">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check ms-2">
+                            <input class="form-check-input" type="radio" name="gender" id="Female">
+                            <label class="form-check-label" for="Female">
+                                Female
+                            </label>
+                        </div>
+                        <div class="form-check ms-2">
+                            <input class="form-check-input" type="radio" name="gender" id="Transgender">
+                            <label class="form-check-label" for="Transgender">
+                                Transgender
+                            </label>
+                        </div>
+
+                    </div>
+
+
+                </li>
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"> Contact Mobile No in Qatar : </span>
+                        <input type="text" class="form-control" placeholder="EX: 7234637856">
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Contact Mobile No in Your Country :</span>
+                        <input type="text" class="form-control" placeholder="EX: 7234637858996">
+                    </div>
+                </li>
+
+                <li>
+                    <span class="input-group-text ">Address as far National Address in Qatar</span> <br>
+                    <div class="d-lg-flex gap-3 mb-3">
+                        <div class="mb-2 m-lg-0">
+                            <span class="form-label">Zone no :</span>
+                            <input type="text" class="form-control" placeholder="EX: 6787">
+                        </div>
+                        <div class=" mb-2 m-lg-0">
+                            <span class="form-label">Street no:</span>
+                            <input type="text" class="form-control" placeholder="EX: 6787">
+                        </div>
+                        <div class=" mb-2 m-lg-0">
+                            <span class="form-label">House no / Building no :</span>
+                            <input type="text" class="form-control" placeholder="EX: 6787">
+                        </div>
+                        <div class=" mb-2 m-lg-0">
+                            <span class="form-label">Unit no : </span>
+                            <input type="text" class="form-control" placeholder="EX: 6">
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"> Address as far Passport : </span>
+                        <input type="text" class="form-control" placeholder="EX: hh,Qatar">
+                    </div>
+
+                </li>
+
+
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Reference Person's Name : </span>
+                        <input type="text" class="form-control" placeholder="EX: John">
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Reference Person's Mobile no : </span>
+                        <input type="text" class="form-control" placeholder="EX: 978678">
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Salary Information : </span>
+                        <input type="text" class="form-control" placeholder="EX: 60000.0">
+                        <select name="" id="" class="form-select">
+                            <option value="TK">TK</option>
+                            <option value="Dolar">Dolar</option>
+                        </select>
+                    </div>
+
+                </li>
+                <!-- <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Notification : </span>
+                        <input type="text" class="form-control" placeholder="EX: hhhhhhhhhhhh">
+                    </div>
+                    <span class="fw-bolder"></span>
+                </li>
+                <li>Warning: <span class="fw-bolder">hhhhhhhhhhhh</span></li>
+                <li>Note: <span class="fw-bolder">hhhhhhhhhhhh</span></li> -->
+                <li>Documents: </li>
+                <ol type="A" class="">
+                    <li>
+                        <div class="input-group mb-3 mt-2">
+                            <span class="input-group-text">QID : </span>
+                            <input type="file" class="form-control" aria-label="file example" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Passport : </span>
+                            <input type="file" class="form-control" aria-label="file example" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Labor Contract Paper : </span>
+                            <input type="file" class="form-control" aria-label="file example" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Others (if any) : </span>
+                            <input type="file" class="form-control" aria-label="file example" required>
+                        </div>
+                    </li>
+
+                </ol>
+
+                <li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Singnature : </span>
+                        <input type="file" class="form-control" aria-label="file example" required>
+                    </div>
+
+                </li>
+
+
+            </ol>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-success">
+        <div class="container py-5">
+            <nav class="nav flex-column flex-lg-row justify-content-between">
+                <a href="" class="nav-link">
+                    <img src="./assets/IMAGES/logo.png" alt="" height="80px">
+                </a>
+
+                <div class="ms-3 ms-lg-0 menu">
+                    <a href="" class="d-block text-decoration-none text-black">Terms & Condition</a>
+                    <a href="" class="d-block text-decoration-none text-black">Privacy Policy</a>
+                    <a href="" class="d-block text-decoration-none text-black">Contact US</a>
+                    <a href="" class="d-block text-decoration-none text-black">About</a>
+                </div>
+
+                <div class="ms-4 mslg-0 mt-3 d-flex gap-2 align-self-start">
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="text-black bg-white fs-5  social"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b3b2e162b5.js"></script>
+    <script src="./assets/JS/script.js"></script>
+</body>
+
+</html>

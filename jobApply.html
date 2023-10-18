@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Key</title>
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <style>
+        /* Add custom styles to fix the navbar */
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+
+        @media (max-width: 768px) {
+            #carouselExampleIndicators {
+                margin-top: 40px;
+                /* Adjust the margin for mobile devices */
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            /* Adjust the breakpoint as needed */
+            .menu {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-success px-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/IMAGES/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link ms-4 ms-lg-0 fw-bold dropdown-toggle" href="./our-service.html"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                            Our Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Contracting </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#" class="dropdown-item">A</a> </li>
+                                    <li> <a href="#" class="dropdown-item">B</a> </li>
+                                    <li> <a href="#" class="dropdown-item">C</a> </li>
+                                    <li> <a href="#" class="dropdown-item">D</a> </li>
+                                    <li> <a href="#" class="dropdown-item">E</a> </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle " href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Cleaning </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#" class="dropdown-item">A</a> </li>
+                                    <li> <a href="#" class="dropdown-item">B</a> </li>
+                                    <li> <a href="#" class="dropdown-item">C</a> </li>
+                                    <li> <a href="#" class="dropdown-item">D</a> </li>
+                                    <li> <a href="#" class="dropdown-item">E</a> </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hospitality</a></li>
+                            <li><a class="dropdown-item" href="#">Trading</a></li>
+                            <li><a class="dropdown-item" href="#">Service</a></li>
+                            <li><a class="dropdown-item" href="#">Travel Agency</a></li>
+                            <li><a class="dropdown-item" href="#">Training</a></li>
+                            <li><a class="dropdown-item" href="#">Library Faculty</a></li>
+                            <li><a class="dropdown-item" href="#">Real Estate</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./our-project.html">Our Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./BOD.html">Board of Directors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./inqueary.html">Inquiry </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold text-white active" href="#">Job Apply </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="./Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 fw-bold" href="#">Lang</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Lets Start -->
+
+    <section class="container my-lg-5">
+
+        <div class="d-flex flex-column align-items-center ">
+
+
+            <h1 class="text-center fw-bold mb-lg-5 text-primary mt-2 mt-lg-5">Let's start your career with us!</h1>
+
+            <div class="col-11 col-lg-6">
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="Your name :">
+                    <label>Your name :</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control " placeholder="Email : " id="Q_ID_NUMBER">
+                    <label>Email : </label>
+                </div>
+
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="Mobile Number :">
+                    <label>Mobile Number :</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <label>Subject :</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="File" class="form-control" placeholder="Subject">
+                    <label>Attached your CV (PDF)</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Write Your Message" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Write Your Message</label>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <button class="btn btn-primary text-black fw-bold border-0 w-100">Submit</button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-success">
+        <div class="container py-1">
+            <nav class="nav flex-column flex-lg-row justify-content-between">
+                <a href="" class="nav-link">
+                    <img src="./assets/IMAGES/logo.png" alt="" height="80px">
+                </a>
+
+                <div class="ms-3 ms-lg-0 menu">
+                    <a href="" class="d-block text-decoration-none text-black">Terms & Condition</a>
+                    <a href="" class="d-block text-decoration-none text-black">Privacy Policy</a>
+                    <a href="" class="d-block text-decoration-none text-black">Contact US</a>
+                    <a href="" class="d-block text-decoration-none text-black">About</a>
+                </div>
+
+                <div class="ms-4 mslg-0 mt-3 d-flex gap-2 align-self-start">
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="text-black bg-white fs-5  social"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="text-black bg-white fs-5 social"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b3b2e162b5.js"></script>
+    <!-- <script src="./assets/JS/script.js"></script> -->
+</body>
+
+</html>
